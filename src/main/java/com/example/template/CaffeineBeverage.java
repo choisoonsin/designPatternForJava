@@ -19,6 +19,7 @@ public abstract class CaffeineBeverage {
 		System.out.println("물 끓이는 중");
 	}
 
+	// Hooking
 	public boolean customerWantsCondiments() {
 		return true;
 	}
